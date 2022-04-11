@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,19 +24,41 @@
 
 <body>
     <header>
-        <nav class="main_nav navbar">
-            <div class="logo">
-                <h2 class="nav_logo">logo</h2>
-            </div>
-            <div class="nav navhome">
-                <i class="fa-solid fa-house-user"></i>
-            </div>
-            <div class="nav navabout">
-                <i class="fa-solid fa-address-card"></i>
-            </div>
-            <div class="nav navworks">
-                <i class="fa-solid fa-briefcase"></i>
-            </div>
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo">MUO</div>
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+                <!-- USING CHECKBOX HACK -->
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <!-- NAVIGATION MENUS -->
+                <div class="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a>
+                        <ul class="dropdown">
+                            <li><a href="/">Dropdown 1 </a></li>
+                            <li><a href="/">Dropdown 2</a></li>
+                            <li><a href="/">Dropdown 2</a></li>
+                            <li><a href="/">Dropdown 3</a></li>
+                            <li><a href="/">Dropdown 4</a></li>
+                        </ul>
+                    </li>
+                    <li class="services">
+                        <a href="/">Services</a>
+                        <!-- DROPDOWN MENU -->
+                        <ul class="dropdown">
+                            <li><a href="/">Dropdown 1 </a></li>
+                            <li><a href="/">Dropdown 2</a></li>
+                            <li><a href="/">Dropdown 2</a></li>
+                            <li><a href="/">Dropdown 3</a></li>
+                            <li><a href="/">Dropdown 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/">Pricing</a></li>
+                    <li><a href="/">Contact</a></li>
+                </div>
+            </ul>
         </nav>
         <section>
 
