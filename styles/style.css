@@ -107,20 +107,20 @@ header {
           box-shadow: 2px 10px 20px #b08968;
 }
 
-main section {
+main .content1 {
   background-image: url(/img/pexels-mitchell-luo-3694711.jpg);
   background-size: cover;
   padding-bottom: 12vh;
 }
 
-main section h2 {
+main .content1 h2 {
   padding: 6vh 0 0 0;
   text-align: center;
   font-size: 4vh;
   color: #414833;
 }
 
-main section .boxes {
+main .content1 .boxes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,11 +131,11 @@ main section .boxes {
   margin: 0 2vh;
 }
 
-main section .boxes div {
+main .content1 .boxes div {
   display: block;
 }
 
-main section .boxes div .box {
+main .content1 .boxes div .box {
   background-color: none;
   height: 20vh;
   width: 20vh;
@@ -146,7 +146,7 @@ main section .boxes div .box {
   border-color: #6b705c;
 }
 
-main section .boxes div p {
+main .content1 .boxes div p {
   text-align: center;
   font-size: large;
 }
