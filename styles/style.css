@@ -4,10 +4,13 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Roboto', cursive;
+  font-family: 'Bebas Neue', cursive;
 }
 
 body {
   font-family: 'Roboto', cursive;
+  font-family: 'Bebas Neue', cursive;
 }
 
 a {
@@ -29,32 +32,32 @@ li {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 20px;
-  background-color: #e63946;
+  background-color: #6b705c;
   color: #a8dadc;
   margin: 0;
 }
 
 .navbar .logo {
   font-size: 33px;
-  color: #1d3557;
-  margin-left: 5rem;
+  color: #ffe8d6;
+  margin-left: 5vw;
 }
 
 .navbar .nav-links a {
-  color: #1d3557;
+  color: #ffe8d6;
 }
 
 .navbar .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 4rem;
+  gap: 4vw;
   font-size: 20px;
-  margin-right: 5rem;
+  margin-right: 5vw;
 }
 
 .navbar .menu li:hover {
-  background-color: #a8dadc;
+  background-color: #cb997e;
   border-radius: 5px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -62,5 +65,89 @@ li {
 
 .navbar .menu li {
   padding: 5px 14px;
+}
+
+.hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #cb997e;
+  border-bottom-style: outset;
+  border-bottom-width: 1px;
+  border-bottom-color: #e6ccb2;
+}
+
+.hero-text h1 {
+  margin: 4rem 0 4rem 4rem;
+  padding: 4rem 1rem 4rem 1rem;
+  font-size: 10vw;
+  font-family: 'Bebas Neue', cursive;
+  text-align: right;
+  border-right-style: dashed;
+  border-color: #6b705c;
+  color: #414833;
+}
+
+.hero-text h3 {
+  margin: 4rem 4rem 4rem 0rem;
+  padding: 3rem 1rem 4rem 1rem;
+  font-size: 4vw;
+  font-family: 'Bebas Neue', cursive;
+  text-align: right;
+  -webkit-transform: translateY(8%);
+          transform: translateY(8%);
+  color: #656d4a;
+}
+
+header {
+  -webkit-box-shadow: 2px 10px 20px #b08968;
+          box-shadow: 2px 10px 20px #b08968;
+}
+
+main section {
+  background-image: url(/img/pexels-mitchell-luo-3694711.jpg);
+  background-size: cover;
+  padding-bottom: 12vh;
+}
+
+main section h2 {
+  padding: 6vh 0 0 0;
+  text-align: center;
+  font-size: 4vh;
+  color: #414833;
+}
+
+main section .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 4vh 0;
+  margin: 0 2vh;
+}
+
+main section .boxes div {
+  display: block;
+}
+
+main section .boxes div .box {
+  background-color: none;
+  height: 20vh;
+  width: 20vh;
+  margin: 0 4vh;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #6b705c;
+}
+
+main section .boxes div p {
+  text-align: center;
+  font-size: large;
 }
 /*# sourceMappingURL=style.css.map */
